@@ -1,18 +1,25 @@
-var student=prompt("are you a med student?");
-var work=prompt("do you work in the medical field?");
+var intrest=prompt("are you intrested in human body anatomy");
 
-var welcommessage;
 
-if(student == "yes"){
-    welcommessage="you're in the right place welcome";
-}
-else if(work == "yes"){
-    welcommessage="you're a bit advanced, but welcome anyway";
-}
-else{
-    welcommessage="if you're a curios person I hope you enjoy";
-}
-
-document.write(welcommessage);
-confirm("are you sure you want to cary on?");
-alert("thank you");
+while (intrest !== 'yes' && intrest !== 'no') {
+    intrest = prompt('are you intrested in human body anatomy');
+  }
+  
+  var welcomemessag = '';
+  
+  if (intrest === 'yes') {
+    welcomemessag = '<img src="images/anatomy.jpg"/>';
+  } else if (intrest === 'no') {
+    welcomemessag = '<img src="images/sorry.jpg"/>';
+  }
+  
+  var noimg = prompt('on a scal from 1-5, how much are you interested in the anatomy?');
+  
+  var result = '';
+  
+  for (var i = 0; i < noimg; i++) {
+    result = result + intrest;
+  }
+  
+  document.write(result);
+  document.write(welcomemessag);
