@@ -21,5 +21,5 @@ while (intrest !== 'yes' && intrest !== 'no') {
     result = result + intrest;
   }
   
-  document.write(result);
+  
   document.write(welcomemessag);
