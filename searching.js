@@ -34,11 +34,11 @@ while (popquiz !=="yes" && popquiz !=="no"){
   popquiz = prompt("are you sure?")
 }
 
-while (popquiz == "yes"){
+while (popquiz == "no"){
   popquiz = prompt("If you realy don't want to take the pop quiz then please print 'ok'")
 }
 
-while (popquiz == "no"){
+while (popquiz == "yes"){
   popquiz = prompt("This is yes/no quiz, so if you're sure please print ok")
   while (popquiz == "ok"){
     popquiz = prompt("Human anatomy is the study of the structures of the human body?(yes/no)")
