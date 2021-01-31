@@ -34,19 +34,19 @@ while (popquiz !=="yes" && popquiz !=="no"){
   popquiz = prompt("are you sure?")
 }
 
-while (popquiz == "no"){
-  popquiz = prompt("If you realy don't want to take the pop quiz then please print ok")
+while (popquiz == "yes"){
+  popquiz = prompt("If you realy don't want to take the pop quiz then please print 'ok'")
 }
 
-while (popquiz == "yes"){
+while (popquiz == "no"){
   popquiz = prompt("This is yes/no quiz, so if you're sure please print ok")
   while (popquiz == "ok"){
     popquiz = prompt("Human anatomy is the study of the structures of the human body?(yes/no)")
   }
   while(popquiz == "yes"){
-    popquiz = prompt("Great job! to move to the next question please inter ok")
+    popquiz = prompt("Great job! to move to the next question please inter 'go")
   }
-  while (popquiz =="ok"){
+  while (popquiz =="go"){
     popquiz = prompt("Human anatomy discuss animals structures? (yes/no)")
   }
   while (popquiz == "no"){
@@ -59,6 +59,6 @@ while (popquiz == "yes"){
     popquiz = prompt ("You've done great pleas print 'go' to finish")
   }
   while (popquiz == 'go'){
-    popquiz = prompt (" Thank you for visiting, pleas enjoy your reading.")
+    popquiz = prompt (" Thank you for visiting, pleas print 'ok', and enjoy your reading.")
   }
 }
