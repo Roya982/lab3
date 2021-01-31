@@ -25,3 +25,8 @@ header nav li {
     margin-right: auto;
     width: 50%;
 }
+
+#copyright{
+  color: darkred;
+  text-align: center;
+}
