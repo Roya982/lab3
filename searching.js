@@ -18,8 +18,8 @@ while (intrest !== 'yes' && intrest !== 'no') {
   var result = '';
   
   for (var i = 0; i < noimg; i++) {
-    result = result + intrest;
+    result = result + welcomemessag;
   }
   
   
-  document.write(welcomemessag);
+  document.write(result)
